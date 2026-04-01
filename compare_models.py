@@ -15,10 +15,10 @@ def find_results_files():
                 
                 if "fire_detection_project" in root or "yolov8" in root:
                     yolo_file = full_path
-                    print(f"✅ Found YOLOv8 results at: {yolo_file}")
+                    print(f"Found YOLOv8 results at: {yolo_file}")
                 elif "rtdetr" in root:
                     rt_file = full_path
-                    print(f"✅ Found RT-DETR results at: {rt_file}")
+                    print(f"Found RT-DETR results at: {rt_file}")
     
     return yolo_file, rt_file
 
