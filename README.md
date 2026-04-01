@@ -2,6 +2,7 @@
 
 **Author:** Puttala Jeevan Kumar – Computer Vision & AI/ML Researcher  
 **Date:** March 2026  
+**Full Transparent Comparative Analysis of Convolutional and Transformer Architectures for Real-Time Fire Detection
 
 ## Abstract
 This study presents a rigorous empirical comparison between a Convolutional Neural Network (YOLOv8s) and a Vision Transformer (RT-DETR-L) for the specialized task of real-time fire and smoke detection. The objective was to evaluate the mathematical trade-offs between localized inductive bias and global self-attention mechanisms in edge-deployment scenarios (e.g., autonomous drones and automotive vision systems). Experimental results demonstrate a clear architectural divergence: the lightweight CNN achieved superior recall and mean Average Precision (mAP@50 = 0.867), proving highly parameter-efficient for capturing localized boundary anomalies. Conversely, the Vision Transformer exhibited superior background suppression, reducing False Positives by 33% and achieving the highest overall Precision (0.896). This analysis provides a calibrated deployment framework for hardware integration based on operational risk tolerance.
