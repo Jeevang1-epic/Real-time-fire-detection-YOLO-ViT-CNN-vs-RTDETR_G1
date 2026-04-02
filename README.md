@@ -4,6 +4,8 @@
 **Date:** March 2026  
 *Full Transparent Comparative Analysis of Convolutional and Transformer Architectures for Real-Time Fire Detection*
 
+# Hardware Specifications & Experimental Environment
+
 
 
 ## Abstract
