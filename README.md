@@ -5,6 +5,7 @@
 *Full Transparent Comparative Analysis of Convolutional and Transformer Architectures for Real-Time Fire Detection*
 
 # Hardware Specifications & Experimental Environment
+To ensure reproducibility and establish a rigorous baseline for edge-deployment viability, all model training, validation, and real-time inference pipelines were executed under strictly controlled local hardware constraints. The comparative analysis was conducted on an Asus ROG Zephyrus G16 (2024) mobile workstation utilizing the following specifications:
 
 
 
