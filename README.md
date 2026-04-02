@@ -45,6 +45,8 @@ To simulate challenging aerial and automotive environments, dynamic data augment
 * **4-Way Mosaic Stitching:** Combined multiple images into a single training frame to teach scale invariance.
 * **Luminance & Spectral Jittering:** Applied HSV adjustments (Saturation: 0.7, Value: 0.4) to simulate severe weather, overcast skies, and high-glare lighting conditions.
 
+![rtdetr_run_fast/train_batch25652](rtdetr_run_fast/train_batch25652.jpg) 
+
 ## 3. Architectural Methodology
 Both models were trained under identically constrained hardware parameters (NVIDIA RTX 4060, 640x640 resolution, batch size 8) to evaluate two fundamentally different mathematical approaches to computer vision.
 
@@ -81,6 +83,8 @@ Static metrics do not fully capture edge-deployment viability. Both models were 
 ![val_batch0_labels](final_evaluation/val_batch0_labels.jpg)
 
 *Real-time inference on unseen dynamic drone footage for smoke detection. RT-DETR-L exhibited highly stable bounding boxes with zero anchor-box jitter, cleanly isolating the core without being distracted by peripheral thermal noise.*
+
+![transformer_eval/val_batch0_pred](transformer_eval/val_batch0_pred.jpg)
 
 *Real-time inference on unseen dynamic drone footage for fire detection. YOLOv8s exhibited rapid bounding box generation with high recall, successfully tracking rapidly expanding brush fires even when partially obscured.*
 
