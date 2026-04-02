@@ -5,7 +5,13 @@
 *Full Transparent Comparative Analysis of Convolutional and Transformer Architectures for Real-Time Fire Detection*
 
 # Hardware Specifications & Experimental Environment
-To ensure reproducibility and establish a rigorous baseline for edge-deployment viability, all model training, validation, and real-time inference pipelines were executed under strictly controlled local hardware constraints. The comparative analysis was conducted on an Asus ROG Zephyrus G16 (2024) mobile workstation utilizing the following specifications:
+To ensure reproducibility and establish a rigorous baseline for edge-deployment viability, all model training, validation, and real-time inference pipelines were executed under strictly controlled local hardware constraints. The comparative analysis was conducted on an Asus ROG Zephyrus G16 (2024) 
+mobile workstation utilizing the following specifications:
+
+* *Compute Engine (GPU):* NVIDIA GeForce RTX 4060 Laptop GPU (8GB GDDR6 VRAM)
+* *System Memory (RAM):* 16GB
+* *Storage Environment:* 1TB NVMe SSD
+* *Operating System:* Windows Subsystem for Linux (WSL), providing a native Linux distribution environment for optimized deep learning framework execution and dependency management.
 
 
 
