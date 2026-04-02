@@ -59,6 +59,8 @@ Real-Time Detection Transformer (RT-DETR) processes the image as a sequence of p
 ### 4.1 The Stochastic Convergence Gap
 Analysis of the training curves revealed a distinct behavioral difference between the architectures. YOLOv8s demonstrated a smooth, logarithmic ascent, reaching stability within the first 50 epochs due to its inherent spatial bias. In contrast, RT-DETR-L exhibited a highly volatile, stochastic convergence trajectory. Lacking inductive bias, the Transformer required significantly more epochs to mathematically stabilize its spatial relationships.
 
+![Comparison_Curves](Comparison_Curves.png)
+
 ### 4.2 Quantitative Benchmarking
 Despite its significantly smaller parameter count, the CNN demonstrated superior overall localization (Recall), while the Transformer excelled in absolute certainty (Precision).
 
