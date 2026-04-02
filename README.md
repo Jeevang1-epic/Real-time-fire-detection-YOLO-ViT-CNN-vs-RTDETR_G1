@@ -76,6 +76,7 @@ Static metrics do not fully capture edge-deployment viability. Both models were 
 * **RT-DETR-L:** Exhibited highly stable bounding boxes with zero anchor-box jitter, cleanly isolating the fire core without being distracted by peripheral thermal noise.
 
 **Video Link:** [https://youtu.be/ynnPtxrfhC0](https://youtu.be/ynnPtxrfhC0)
+**comparison video:** check Yolov8 vs rtdetr.mp4 file.
 
 *Real-time inference on unseen dynamic drone footage for smoke detection. RT-DETR-L exhibited highly stable bounding boxes with zero anchor-box jitter, cleanly isolating the core without being distracted by peripheral thermal noise.*
 
