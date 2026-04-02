@@ -38,6 +38,8 @@ To prevent model center-bias and ensure real-world robustness, the dataset and p
 ### 2.1 Spatial and Semantic Distribution
 The dataset maintained strict equilibrium across critical classes: fire, smoke, and no-fire. The robust inclusion of the no-fire negative space is critical for teaching the model boundary discrimination and reducing hallucinated bounding boxes. Coordinate distribution analysis confirmed zero central clustering, forcing the network to scan peripheral fields of view.
 
+![labels](rtdetr_run_fast/labels.jpg)
+
 ### 2.2 Augmentation Pipeline
 To simulate challenging aerial and automotive environments, dynamic data augmentation was applied during the 200-epoch training loop:
 * **4-Way Mosaic Stitching:** Combined multiple images into a single training frame to teach scale invariance.
