@@ -78,6 +78,8 @@ Static metrics do not fully capture edge-deployment viability. Both models were 
 **Video Link:** [https://youtu.be/ynnPtxrfhC0](https://youtu.be/ynnPtxrfhC0)
 **comparison video:** check Yolov8 vs rtdetr.mp4 file.
 
+[val_batch0_labels](final_evaluation/val_batch0_labels.jpg)
+
 *Real-time inference on unseen dynamic drone footage for smoke detection. RT-DETR-L exhibited highly stable bounding boxes with zero anchor-box jitter, cleanly isolating the core without being distracted by peripheral thermal noise.*
 
 *Real-time inference on unseen dynamic drone footage for fire detection. YOLOv8s exhibited rapid bounding box generation with high recall, successfully tracking rapidly expanding brush fires even when partially obscured.*
