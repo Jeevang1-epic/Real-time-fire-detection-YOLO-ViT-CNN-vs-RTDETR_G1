@@ -64,7 +64,7 @@ Despite its significantly smaller parameter count, the CNN demonstrated superior
 
 ### 4.3 False Positive Suppression
 The defining victory for the Vision Transformer was its background suppression. Evaluation of the normalized confusion matrices revealed that the Transformer's global attention mechanism reduced false alarms by an impressive 33% compared to the CNN.
-
+![confusion_matrix_normalized](transformer_eval/confusion_matrix_normalized.png)
 *Normalized Confusion Matrix illustrating false positive suppression. The evaluation reveals that the Transformer's global attention mechanism successfully reduced false alarms by an impressive 33% compared to the CNN.*
 
 ## 5. Real-Time Inference & Video Analysis
