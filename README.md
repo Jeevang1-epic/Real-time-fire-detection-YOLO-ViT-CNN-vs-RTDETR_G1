@@ -16,6 +16,11 @@ mobile workstation utilizing the following specifications:
 # Operational Constraints & Training Parameters
 To accurately evaluate the fundamental mathematical approaches of the Convolutional Neural Network (YOLOv8s) versus the Vision Transformer (RT-DETR-L), both architectures were subjected to identical computational bottlenecks. The models were trained and evaluated under the following fixed conditions:
 
+* *Input Image Resolution:* 640x640 pixels
+* *Batch Size:* 8
+* *Training Duration:* 200 Epochs
+* *Hardware Acceleration:* CUDA-enabled parallel tensor processing for optimized training loops.
+
 
 ## Abstract
 This study presents a rigorous empirical comparison between a Convolutional Neural Network (YOLOv8s) and a Vision Transformer (RT-DETR-L) for the specialized task of real-time fire and smoke detection. The objective was to evaluate the mathematical trade-offs between localized inductive bias and global self-attention mechanisms in edge-deployment scenarios (e.g., autonomous drones and automotive vision systems). Experimental results demonstrate a clear architectural divergence: the lightweight CNN achieved superior recall and mean Average Precision (mAP@50 = 0.867), proving highly parameter-efficient for capturing localized boundary anomalies. Conversely, the Vision Transformer exhibited superior background suppression, reducing False Positives by 33% and achieving the highest overall Precision (0.896). This analysis provides a calibrated deployment framework for hardware integration based on operational risk tolerance.
