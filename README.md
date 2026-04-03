@@ -66,7 +66,7 @@ Analysis of the training curves revealed a distinct behavioral difference betwee
 ### 4.2 Quantitative Benchmarking
 Despite its significantly smaller parameter count, the CNN demonstrated superior overall localization (Recall), while the Transformer excelled in absolute certainty (Precision).
 
-![comparison bar](Comparison_Bar_Chart.png)
+![Peak-Performance-Comparison_Bar_Chart](Peak-Performance-Comparison_Bar_Chart.png)
 
 ### 4.3 False Positive Suppression
 The defining victory for the Vision Transformer was its background suppression. Evaluation of the normalized confusion matrices revealed that the Transformer's global attention mechanism reduced false alarms by an impressive 33% compared to the CNN.
